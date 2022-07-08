@@ -1,0 +1,32 @@
+.modal-container{
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    background: rgba(0,0,0,0.2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.modal {
+  height: 500px;
+  max-width: 500px;
+  width: 100%;
+  background: white;
+  border-radius: 5px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.modal-header{
+    height: 50%;
+    background: #9AC6BE;
+    width: 100%;
+    opacity: 20%;
+}
+
+.modal-content{
+    padding-left: 20px;
+}
