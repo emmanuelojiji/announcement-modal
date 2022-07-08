@@ -5,12 +5,13 @@ const Modal = () => {
   return (
     <div className="modal-container">
       <div className="modal">
-        <div className="modal-header"></div>
-
-        <div className="modal-content">
-          <h3>Nudges is here</h3>
-          <Realistic />
-        </div>
+        <h3>Nudges is here</h3>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam at sem
+          sapien. Donec finibus metus tellus, sit amet eleifend sapien mollis
+          eu.
+        </p>
+        <Realistic />
       </div>
     </div>
   );
