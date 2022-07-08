@@ -10,23 +10,46 @@
 }
 
 .modal {
-  height: 400px;
-  max-width: 300px;
+  max-width: 500px;
   width: 100%;
   background: white;
   border-radius: 5px;
   margin-left: 20px;
   margin-right: 20px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  padding-left: 30px;
+  padding-right: 30px;
   text-align: center;
-  padding: 50px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.1);
+
 }
 
-.modal p{
-    line-height: 1.5;
-    font-size: 15px;
-    color: rgb(109, 109, 109);
+.modal-content{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+
+.modal h3{
+    color:#191919;
+    font-size: 24px;
+    margin:0;
+    margin-bottom: 12px;
+}
+
+.modal p {
+  line-height: 1.5;
+  font-size: 15px;
+  color: rgb(133, 133, 133);
+}
+
+.next-button {
+  border: 0;
+  height: 60px;
+  width: 100%;
+  border-radius: 5px;
+  background: #19A7E9;
+  color: white;
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 50px;
 }

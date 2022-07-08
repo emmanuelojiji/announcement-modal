@@ -5,13 +5,15 @@ const Modal = () => {
   return (
     <div className="modal-container">
       <div className="modal">
-        <h3>Nudges is here</h3>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam at sem
-          sapien. Donec finibus metus tellus, sit amet eleifend sapien mollis
-          eu.
-        </p>
+        <div className="modal-content">
+          <h3>Schedule nudges on your resources</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam at
+            sem sapien. Donec finibus metus tellus.
+          </p>
+        </div>
         <Realistic />
+        <button className="next-button">Next</button>
       </div>
     </div>
   );
